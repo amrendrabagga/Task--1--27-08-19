@@ -46,7 +46,7 @@ public class BankAccounts {
 	}
 	
 	public  static void maintainDeposit(BankAccounts...ba) {
-		int sum = 0;
+		long sum = 0;
 		for(BankAccounts ac : ba) {
 			sum += ac.balance;
 		}
@@ -66,7 +66,7 @@ public class BankAccounts {
 			sum += tmp.balance;
 		}
 		System.out.println("TOTAL BALANCE "+sum);
-		System.out.println("Average Balance is " + sum/ba.length);
+		System.out.println("AVERAGE BALANCE IS " + sum/ba.length);
 		
 	}
 	
