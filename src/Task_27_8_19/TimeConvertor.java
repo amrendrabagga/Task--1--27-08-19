@@ -16,7 +16,7 @@ public class TimeConvertor {
 		
 		System.out.println("hello from feature-mam-2");
 
-		System.out.println("hello from git terminal-3 for stash");
+    System.out.println("hello from git terminal-3 for stash");
 		System.out.println("hello from feature-mam-3 for stash");
 	}
 
