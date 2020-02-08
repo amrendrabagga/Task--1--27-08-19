@@ -10,11 +10,8 @@ public class TimeConvertor {
 
 		LocalDateTime ldt = LocalDateTime.parse("1997-10-25 10:10", DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm"));
 		System.out.println(ldt);
-<<<<<<< HEAD
 		System.out.println("hello from feature-mam");
-=======
 		System.out.println("hello from git terminal");
->>>>>>> 21f2c96ae135a4d657d811d3b51afaea32198a98
 	}
 
 }
